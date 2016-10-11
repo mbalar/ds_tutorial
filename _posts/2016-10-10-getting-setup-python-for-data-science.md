@@ -112,14 +112,14 @@ df.Company
 
 
 
-```
+
     0       Tesla
     1    Facebook
     2    Facebook
     3       Yahoo
     Name: Company, dtype: category
     Categories (3, object): [Facebook, Tesla, Yahoo]
-```
+
 
 
 As a final check, let's compute the average age of these tech executives by gender:
@@ -131,12 +131,12 @@ df.groupby('Gender').mean().Age
 
 
 
-```
+
     Gender
     F    44.0
     M    38.5
     Name: Age, dtype: float64
-```
+
 
 
 ### Wrap up
