@@ -1,23 +1,20 @@
 # SITE CONFIGURATION
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://example.com" # the base hostname & protocol for your site
+url: "http://mitalbalar.com" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
-theme_settings:
+theme:
   # Meta
-  title: Type Theme
-  avatar: avatar.png
+  title: Mital Balar
+  avatar:
   gravatar: # Email MD5 hash
-  description: "A website with blog posts and pages" # used by search engines
+  description: "A website with data science posts" # used by search engines
 
   # Header and footer text
-  header_text: >
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-     <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
+  header_text:
   header_text_feature_image:
   footer_text: >
-   Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
+   Copyright &copy; 2016
 
   # Icons
   rss: false
@@ -27,23 +24,23 @@ theme_settings:
   dribbble:
   facebook:
   flickr:
-  github: "rohanchandra/type-theme"
+  github: "mbalar"
   google_plus:
   instagram:
-  linkedin:  # Full URL
+  linkedin:  "http://linkedin.com/in/mitalbalar"
   pinterest:
   reddit:
   soundcloud:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter: "twitter"
+  twitter:
   wordpress:
   youtube:
 
   # Scripts
-  google_analytics: # Tracking ID, e.g. "UA-000000-01"
-  disqus_shortname:
+  google_analytics: "UA-15813498-1"
+  disqus_shortname: "mitalbalar"
   katex: true # Enable if using math markup
 
   # Localization strings
