@@ -11,13 +11,13 @@ Instead of spending days installing and configuring Python and the rest of the d
 
 ### Jupyter Notebook
 
-Once installed, you'll want to launch Juptyer, an interactive notebook that allows you to mainly run code, but also can include text, images, links, etc. Notebooks are easy to share and can help you craft a cohesive story around your analysis. This entire post was written in Jupyter.
+Once installed, you'll want to launch Juptyer, an interactive notebook that allows you to mainly run code, but also can include text, images, links, etc. Notebooks are easy to share and can help you craft a cohesive story around your analysis.
 
 Whether you're on Windows or Mac, entering "jupyter notebook" in a terminal will open the Jupyter Notebook App in your web browser:
 
 ![Terminal](https://mbalar.github.io/img/terminal.jpg)
 
-From there, navigate to a folder of your choice and select New -> Python 2:
+From there, navigate to a folder of your choice and click on the "New" dropdown and select "Python 2":
 
 ![App](https://mbalar.github.io/img/app.jpg)
 
