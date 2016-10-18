@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Data Exploration - Python for Data Science
+excerpt_separator: *This is the 2nd post in the Python for Data Science series*
 ---
 
 *This is the 2nd post in a series meant to be an accelerated learning guide, allowing you to quickly setup your environment and start playing around with data using Python (importing data, working with dataframes, referencing, filtering, cleaning, feature engineering, visualizing, machine learning, etc.)*
