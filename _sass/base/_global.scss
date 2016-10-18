@@ -58,7 +58,7 @@ footer p:last-child {
 table {
   table-layout:fixed;
   width:100%;
-  word-wrap:break-word;
+  word-wrap:normal;
   @media (max-width: 1100px) {
     overflow-x: scroll;
     display: inline-block;
