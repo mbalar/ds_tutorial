@@ -15,7 +15,7 @@ Once installed, launch Juptyer, an interactive notebook that allows you to mainl
 
 Whether you're on Windows or Mac, entering "jupyter notebook" in a terminal will open the Jupyter Notebook App in your web browser:
 
-->![Terminal](https://mbalar.github.io/img/terminal.jpg)<-
+![Terminal](https://mbalar.github.io/img/terminal.jpg)
 
 From there, navigate to a folder of your choice and click on the "New" dropdown and select "Python 2":
 
