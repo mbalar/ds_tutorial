@@ -141,7 +141,7 @@ df.groupby('Gender').mean().Age
 
 ### Wrap up
 
-We've now setup our environment, learned about Jupyter, and explored some of the capabilities of Pandas. If you want to go more in-depth take a look at the additional resources, otherwise move onto the [next post](http://www.mitalbalar.com "Data Exploration") where we'll import and work with real data as we dive into the data exploration process.
+We've now setup our environment, learned about Jupyter, and explored some of the capabilities of Pandas. If you want to go more in-depth take a look at the additional resources, otherwise move onto the [next post](http://mitalbalar.com/2016/10/17/data-exploration-python-for-data-science.html "Data Exploration") where we'll import and work with real data as we dive into the data exploration process.
 
 ### Additional Resources
 
