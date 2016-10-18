@@ -11,7 +11,7 @@ Instead of spending days installing and configuring Python and the rest of the d
 
 ### Jupyter Notebook
 
-Once installed, you'll want to launch Juptyer, an interactive notebook that allows you to mainly run code, but also can include text, images, links, etc. Notebooks are easy to share and can help you craft a cohesive story around your analysis.
+Once installed, launch Juptyer, an interactive notebook that allows you to mainly run code, but also can include text, images, links, etc. Notebooks are easy to share and can help you craft a cohesive story around your analysis.
 
 Whether you're on Windows or Mac, entering "jupyter notebook" in a terminal will open the Jupyter Notebook App in your web browser:
 
@@ -29,7 +29,7 @@ And that's it! You should now be looking at a newly opened notebook:
 
 Next, we'll use Pandas to read in some sample data to make sure everything is up-and-running correctly. Pandas is a library that sits on top of NumPY providing a nice interface and introducing the concept of dataframes, which sidesteps a lot of the complicated array manipulation we'd have to do if using NumPY alone.
 
-Let's run the code below to create a dataframe containing information about some tech company executives (copy/paste into cell and hit shift+enter):
+Let's run the code below to create a dataframe containing information about a few tech company executives (copy/paste into cell and hit shift+enter):
 
 
 ```python
@@ -141,7 +141,7 @@ df.groupby('Gender').mean().Age
 
 ### Wrap up
 
-We've now setup our environment, learned about Jupyter, and explored some of the capabilities of Pandas. If you want to go more in-depth take a look at the additional resources, otherwise move onto the [next post](http://www.mitalbalar.com "Data Exploration") where we'll import and work with real data as we go furthur into the exploration process.
+We've now setup our environment, learned about Jupyter, and explored some of the capabilities of Pandas. If you want to go more in-depth take a look at the additional resources, otherwise move onto the [next post](http://www.mitalbalar.com "Data Exploration") where we'll import and work with real data as we dive into the data exploration process.
 
 ### Additional Resources
 
