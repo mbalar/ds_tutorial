@@ -15,7 +15,7 @@ Open up a new Jupyter notebook (refer to [Getting Setup](http://mitalbalar.com/2
 ```python
 import pandas as pd
 
-df = pd.read_csv('/Users/balar/Documents/python/datasets/bootcamp.csv', header=0)
+df = pd.read_csv('/yourpathname/bootcamp.csv', header=0)
 ```
 
 ### Explore
