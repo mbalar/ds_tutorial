@@ -617,7 +617,7 @@ df[df['IsSoftwareDev'] == 1].describe()
 
 
 
-Of those that became software developers, a higher percentage finished (90%) and recommend the bootcamp they attended, have been programming for longer, and have participated in a greater variety of coding events than the overall population. There's a lot of good information here, but it would be much easier to glean insights if we pull these measures into a visual format.
+Of those that became software developers, a higher percentage finished (89%) and recommend the bootcamp they attended, have been programming for longer, and have participated in a greater variety of coding events than the overall population. There's a lot of good information here, but it would be much easier to glean insights if we pull these measures into a visual format.
 
 ### Seaborn
 
