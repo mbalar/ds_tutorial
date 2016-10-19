@@ -649,24 +649,33 @@ sns.despine(fig=g.fig, left=True)
 
 Clearly some bootcamps are much better at producing software developers than others. App Academy is at the higher end with around 70% of their attendees becoming software developers vs. Turing, which is hovering at 20%. 
 
-We can also look at these discrete plots side-by-side. For Gender, SchoolDegree, and CityPopulation:
+We can also look at discrete plots side-by-side:
 
 
 ```python
-g = sns.PairGrid(df, y_vars="IsSoftwareDev", x_vars=["Gender","SchoolDegree","CityPopulation"], size=4, aspect=1)
+g1 = sns.PairGrid(df, y_vars="IsSoftwareDev", x_vars=["Gender","SchoolDegree","CityPopulation"], size=4, aspect=1)
+g2 = sns.PairGrid(df, y_vars="IsSoftwareDev", x_vars=["BootcampFinish","BootcampLoan","BootcampRecommend"], size=4, aspect=1)
 
-g.map(sns.pointplot)
-g.set(ylim=(0, 1))
+g1.map(sns.pointplot)
+g1.set(ylim=(0, 1))
 sns.despine(fig=g.fig, left=True)
+
+g2.map(sns.pointplot)
+g2.set(ylim=(0, 1))
+sns.despine(fig=g2.fig, left=True)
 ```
 
 
 ![png](https://mbalar.github.io/img/output_32_0.png)
 
 
-The difference between genders is fairly flat, but having a Bachelor's degree or higher, as well as living in a city with more than 100k people, carries a higher incidence of software developers.
 
-Let's dig a bit deeper into Gender and also pull in the Age variable. Faceted histograms are a great way to visualize distributions with interactions between variables:
+![png](https://mbalar.github.io/img/output_32_1.png)
+
+
+The difference between genders is fairly flat, but having a Bachelor's degree or higher, as well as living in a city with more than 100k people, carries a higher incidence of software developers. Those who finished and recommend the bootcamp program they attended are also more likely to be developers.
+
+Let's dig a bit deeper into Gender and also pull in Age. Faceted histograms are a great way to visualize distributions by different variable combinations:
 
 
 ```python
