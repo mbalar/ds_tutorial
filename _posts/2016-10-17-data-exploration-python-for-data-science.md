@@ -5,7 +5,7 @@ title: Data Exploration - Python for Data Science
 
 *This is the 2nd post in a series meant to be an accelerated learning guide, allowing you to quickly setup your environment and start playing around with data using Python (importing data, working with dataframes, referencing, filtering, cleaning, feature engineering, visualizing, machine learning, etc.)*
 
-#### Import Data
+### Import Data
 
 For this and the rest of the posts in the series we'll explore survey responses of 15,000 people who are actively learning to code provided by [Free Code Camp](https://www.freecodecamp.com/2016-new-coder-survey/ "New Coder Survey"). I've extracted a subset of the data, those who have attended a coding bootcamp, which you can download in .csv format [here](https://mbalar.github.io/data/bootcamp.csv "Bootcamp Data"). Ultimately, we'll build a machine learning model to predict which respondents became software developers.
 
