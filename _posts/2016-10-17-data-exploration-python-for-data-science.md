@@ -723,7 +723,7 @@ sns.lmplot("Age", "MonthsProgramming", df, col="IsSoftwareDev");
 ![png](https://mbalar.github.io/img/output_40_0.png)
 
 
-The relationship is slightly stronger for developers (r = 0.13; re-run the first jointplot for the developer group to verify). Regardless of age, developers have been programming for a greater number of months. We can overlay these on top of each other to see the difference more clearly:
+The relationship is slightly stronger for developers (r = 0.13; re-run the first jointplot for the developer group to verify). Regardless of age, developers have been programming for a greater number of months. We can overlay these plots to see the difference more clearly:
 
 
 ```python
