@@ -553,7 +553,6 @@ df.head()
     </tr>
   </tbody>
 </table>
-<p>5 rows × 27 columns</p>
 </div>
 
 
