@@ -41,7 +41,7 @@ df.info()
     memory usage: 104.4+ KB
 
 
-Out of the list we're concerned about, Age is the only one that has missing values. There are many ways we can go about imputing these missing values, but for simplicity let's fill them in with the median age across the entire population.
+Out of the list of variables we're concerned about, Age is the only one that has missing values. There are many ways we can go about imputing these missing values, but for simplicity let's fill them in with the median age across the entire population.
 
 Make a copy of Age so we can retain the original values:
 
