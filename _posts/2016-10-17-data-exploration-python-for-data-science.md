@@ -743,7 +743,7 @@ sns.lmplot(x="Age", y="MonthsProgramming", hue="IsSoftwareDev", data=df)
 
 ### Wrap up
 
-We've uncovered some interesting insights and identified a handful of predictive variables to include in our model. If you want to try out some more visualizations, check out the documentation for Matplotlib and Seaborn below. In the [next post](http://www.mitalbalar.com "Data Munging") we'll munge (clean and shape) our data in order to make it machine learning ready.
+We've uncovered some interesting insights and identified a handful of predictive variables to include in our model. If you want to try out some more visualizations, check out the documentation for Matplotlib and Seaborn below. In the [next post](http://mitalbalar.com/2016/10/30/data-munging-python-for-data-science.html "Data Munging") we'll munge (clean and shape) our data in order to make it machine learning ready.
 
 ### Additional Reading
 
