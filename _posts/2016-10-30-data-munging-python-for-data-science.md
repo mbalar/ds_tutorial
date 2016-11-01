@@ -563,7 +563,7 @@ So far we've created 12 new variables: 10 from BootcampName and 2 from Age. By d
 
 
 ```python
-df['MonthsProgramming/Age'] = df.MonthsProgramming / (df.Age * 12)
+df['MonthsProgramming/AgeFill'] = df.MonthsProgramming / (df.AgeFill * 12)
 ```
 
 We'll see in the next post if this actually turns out to be a good predictive feature.
@@ -611,7 +611,7 @@ df.head()
       <th>PrimeDigitalAcademy</th>
       <th>TheIronYard</th>
       <th>Turing</th>
-      <th>MonthsProgramming/Age</th>
+      <th>MonthsProgramming/AgeFill</th>
     </tr>
   </thead>
   <tbody>
@@ -738,7 +738,7 @@ df.head()
 
 ### Wrap up
 
-We've dealt with missing values, converted categorical variables to numeric, engineered our own features, and are now ready to apply machine learning. In the [next post](http://www.mitalbalar.com "Random Forest") we'll do exactly that by building a Random Forest model to predict which survey respondents became software developers.
+We've dealt with missing values, converted categorical variables to numeric, engineered our own features, and are now ready to apply machine learning. In the [next post](http://mitalbalar.com/2016/11/06/machine-learning-python-for-data-science.html "Machine Learning") we'll do exactly that by building a Random Forest model to predict which survey respondents became software developers.
 
 ### Additional Reading
 
