@@ -279,7 +279,7 @@ df.head()
 
 ### Categorical Values
 
-BootcampName is categorical, so we'll have to convert it to a numerical representation by creating "dummy" variables to indicate whether or not (0 or 1) the respondent attended a particular bootcamp. The pandas get_dummies function makes this fairly quick and easy:
+BootcampName is categorical, so we'll have to convert it to a numerical representation by creating "dummy" variables to indicate whether or not (0 or 1) the respondent attended a particular bootcamp. The Pandas get_dummies function makes this fairly quick and easy:
 
 
 ```python
