@@ -738,7 +738,7 @@ df.head()
 
 ### Wrap up
 
-We've dealt with missing values, converted categorical variables to numeric, engineered our own features, and are now ready to apply machine learning. In the [next post](http://mitalbalar.com/2016/11/06/machine-learning-python-for-data-science.html "Machine Learning") we'll do exactly that by building a Random Forest model to predict which survey respondents became software developers.
+We've dealt with missing values, converted categorical variables to numeric, engineered our own features, and are now ready to apply machine learning. In the [next post](http://mitalbalar.com/2016/11/05/machine-learning-python-for-data-science.html "Machine Learning") we'll do exactly that by building a Random Forest model to predict which survey respondents became software developers.
 
 ### Additional Reading
 
