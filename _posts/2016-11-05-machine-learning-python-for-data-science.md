@@ -131,15 +131,8 @@ plt.show()
 ![png](https://mbalar.github.io/img/output_19_0.png)
 
 
-The area under the curve is a measure of model accuracy and we can use the breakouts below to evaluate our model:
+The area under the curve (AUC) is a common evaluation metric for binary classification models:
 
-.90-1.0 = Excellent (A)  
-.80-.90 = Good (B)  
-.70-.80 = Fair (C)  
-.60-.70 = Poor (D)  
-.50-.60 = Fail (F)  
-
-To calculate the area under curve (AUC):
 
 
 ```python
@@ -149,10 +142,15 @@ metrics.auc(fpr_rf, tpr_rf)
 ```
 
 
-
-
     0.83131236579512446
 
+And using the breakouts below we can give our model a grade:
+
+.90-1.0 = Excellent (A)  
+.80-.90 = Good (B)  
+.70-.80 = Fair (C)  
+.60-.70 = Poor (D)  
+.50-.60 = Fail (F)  
 
 
 Overall, not bad for our first attempt but there's still some room for improvement.
