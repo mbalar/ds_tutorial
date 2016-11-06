@@ -146,11 +146,11 @@ metrics.auc(fpr_rf, tpr_rf)
 
 And using the breakouts below we can give our model a grade:
 
-.90-1.0 = Excellent (A)  
-.80-.90 = Good (B)  
-.70-.80 = Fair (C)  
-.60-.70 = Poor (D)  
-.50-.60 = Fail (F)  
+  .90-1.0 = Excellent (A)  
+  .80-.90 = Good (B)  
+  .70-.80 = Fair (C)  
+  .60-.70 = Poor (D)  
+  .50-.60 = Fail (F)  
 
 
 Overall, not bad for our first attempt but there's still some room for improvement.
