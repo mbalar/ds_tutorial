@@ -105,7 +105,7 @@ forest.score(x_test,y_test)
 
 
 
-The test accuracy is 74% vs. a baseline of 50% achieved by randomly guessing. The mismatches are due to overfitting, but by tweaking the model, assumptions, and features we may be able to improve the accuracy.
+The test accuracy is 74% vs. the baseline of 50% we could have achieved by randomly guessing. The mismatches are due to overfitting, but by tweaking the model, assumptions, and features we may be able to improve the accuracy.
 
 Here's the receiver operating characteristic (ROC) curve:
 
