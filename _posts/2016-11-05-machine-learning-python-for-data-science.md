@@ -5,7 +5,7 @@ title: Machine Learning - Python for Data Science
 
 *This is the 4th and final post in a series meant to be an accelerated learning guide, allowing you to quickly setup your environment and start playing around with data using Python (importing data, working with dataframes, referencing, filtering, cleaning, feature engineering, visualizing, machine learning, etc.)*
 
-To follow along, complete the steps in the following posts before moving on:
+To follow along, complete the steps in the previous posts before moving on:
 1. [Getting Setup](http://mitalbalar.com/2016/10/10/getting-setup-python-for-data-science.html "Getting Setup")
 2. [Data Exploration](http://mitalbalar.com/2016/10/17/data-exploration-python-for-data-science.html "Data Exploration")
 3. [Data Munging](http://mitalbalar.com/2016/10/30/data-munging-python-for-data-science.html "Data Munging")
