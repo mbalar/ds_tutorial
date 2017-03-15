@@ -5,6 +5,11 @@ title: Machine Learning - Python for Data Science
 
 *This is the 4th and final post in a series meant to be an accelerated learning guide, allowing you to quickly setup your environment and start playing around with data using Python (importing data, working with dataframes, referencing, filtering, cleaning, feature engineering, visualizing, machine learning, etc.)*
 
+To follow along, complete the steps in the following posts before moving on:
+1. [Getting Setup](http://mitalbalar.com/2016/10/10/getting-setup-python-for-data-science.html "Getting Setup")
+2. [Data Exploration](http://mitalbalar.com/2016/10/17/data-exploration-python-for-data-science.html "Data Exploration")
+3. [Data Munging](http://mitalbalar.com/2016/10/30/data-munging-python-for-data-science.html "Data Munging")
+
 ### Splitting Data
 
 The first thing we'll do is split our data into a training set and a testing set. The training set will be used to "train" our model and the testing set will be used to ensure that we haven't overfitted that model. A good model generalizes well and can be applied to unseen data while providing similar performance, hence the seperate testing set to validate this notion.
