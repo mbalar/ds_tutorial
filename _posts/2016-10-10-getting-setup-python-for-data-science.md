@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Getting Setup - Python for Data Science
+title: P1. Getting Setup - Python for Data Science
 ---
 
-*This is the 1st post in a series meant to be an accelerated learning guide, allowing you to quickly setup your environment and start playing around with data using Python (importing data, working with dataframes, referencing, filtering, cleaning, feature engineering, visualizing, machine learning, etc.)*
+*Installing Python using Anaconda, reading in some sample data and using Pandas to output summary statistics.*
 
 ### Installation 
 
