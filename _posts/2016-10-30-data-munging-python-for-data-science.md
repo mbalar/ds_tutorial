@@ -3,7 +3,7 @@ layout: post
 title: P3. Data Munging - Python for Data Science
 ---
 
-*Cleaning data and engineering features in preperation to build a machine learning model.*
+*Cleaning data and engineering features in preparation to build a machine learning model.*
 
 Now that we've imported and explored the data, we're only one step away from building our machine learning model: cleaning the data. If you haven't done so already, refer to the [Data Exploration](http://mitalbalar.com/2016/10/17/data-exploration-python-for-data-science.html "Data Exploration") post to catch up to this point. 
 
