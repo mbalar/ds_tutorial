@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Data Munging - Python for Data Science
+title: P3. Data Munging - Python for Data Science
 ---
 
-*This is the 3rd post in a series meant to be an accelerated learning guide, allowing you to quickly setup your environment and start playing around with data using Python (importing data, working with dataframes, referencing, filtering, cleaning, feature engineering, visualizing, machine learning, etc.)*
+*Cleaning data and engineering features in preperation to build a machine learning model.*
 
 Now that we've imported and explored the data, we're only one step away from building our machine learning model: cleaning the data. If you haven't done so already, refer to the [Data Exploration](http://mitalbalar.com/2016/10/17/data-exploration-python-for-data-science.html "Data Exploration") post to catch up to this point. 
 
