@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Machine Learning - Python for Data Science
+title: P4. Machine Learning - Python for Data Science
 ---
 
-*This is the 4th and final post in a series meant to be an accelerated learning guide, allowing you to quickly setup your environment and start playing around with data using Python (importing data, working with dataframes, referencing, filtering, cleaning, feature engineering, visualizing, machine learning, etc.)*
+*Training a Random Forest, testing, model evaluation, and validation.*
 
 To follow along, complete the steps in the previous posts before moving on:
 1. [Getting Setup](http://mitalbalar.com/2016/10/10/getting-setup-python-for-data-science.html "Getting Setup")
